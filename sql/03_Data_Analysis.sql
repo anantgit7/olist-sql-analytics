@@ -207,5 +207,5 @@ SELECT
 
 FROM retention_view
 ORDER BY cohort_month;
---
+----
 
