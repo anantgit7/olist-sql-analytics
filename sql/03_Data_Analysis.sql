@@ -1,4 +1,4 @@
--- 1) Cohort, Retention & Churn Analysis
+-- ANALYSIS -  1) Cohort, Retention & Churn Analysis
 
 -- ----------------Cohort View----------------
 
@@ -208,4 +208,37 @@ SELECT
 FROM retention_view
 ORDER BY cohort_month;
 ----
+
+
+-- ANALYSIS - 2 - SELLER PERFORMANCE ANALYSIS
+-- ---------------- Seller Performance Analysis ----------------
+-- 1) Performance Analysis
+
+create or replace view seller_performance as 
+with cte as (
+select seller_id, sum(total_value) as sum1,count(order_id) as cnt1,avg(review_score) as avg1 from FactOrders
+group by seller_id
+),
+cte1 as (
+select seller_id,sum1 as total_revenue,cnt1 as total_orders ,sum1/cnt1 as aov, avg1 as avg_rating
+from cte
+)
+-- cte2 as (
+select * , CASE 
+  WHEN avg_rating >= 4.5 AND total_orders >= 50 THEN 'Top Seller'
+  WHEN avg_rating >= 4.0 AND total_orders >= 20 THEN 'Reliable'
+  WHEN avg_rating < 4.0 AND total_orders >= 20 THEN 'Needs Improvement'
+  WHEN total_orders < 20 AND avg_rating >= 4.5 THEN 'New & Promising'
+  ELSE 'Low Volume / Unstable'
+END as status
+from cte1
+
+select * from seller_performance
+
+
+-- 2) Percentage wise distribution
+select status,concat(round(100*count(status)/(select count(status) from seller_performance),2),"%") as seller_performance_percentage
+from seller_performance
+group by status
+order by seller_performance_percentage desc
 
