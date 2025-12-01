@@ -242,3 +242,8 @@ from seller_performance
 group by status
 order by seller_performance_percentage desc
 
+----------Category wise sales Analysis--------------
+
+
+select D.category_name_en,sum(F.total_value) from DimProduct as D join FactOrders as F on D.product_id=F.product_id
+group by D.category_name_en
