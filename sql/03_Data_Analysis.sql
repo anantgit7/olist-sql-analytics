@@ -247,3 +247,13 @@ order by seller_performance_percentage desc
 
 select D.category_name_en,sum(F.total_value) from DimProduct as D join FactOrders as F on D.product_id=F.product_id
 group by D.category_name_en
+
+
+
+---------Payment method popularity-------
+
+
+select payment_type,round(sum(payment_value)) as total_value
+from FactPayments
+group by payment_type
+order by total_value desc
