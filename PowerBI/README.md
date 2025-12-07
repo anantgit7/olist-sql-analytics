@@ -1,5 +1,8 @@
 Sales Analytics & KPI Monitoring Dashboard
 
+Dashboard reference:
+The visuals and interactions are shown in the uploaded files “Olist Dashboard Photo.png” and “Olist Dashboard Video.mp4” inside the Power BI folder. Please refer to them while reviewing this documentation.
+
 Aim / Purpose
 
 ⦁	The objective of this dashboard is to provide a consolidated and interactive view of business performance across sales, orders, customer behavior, product categories, and geography. The dashboard combines KPIs, trend analysis, and visual breakdowns to enable monitoring of revenue, order volume, spending patterns, and regional demand. It allows users to explore data across multiple time periods and dimensions, supporting faster and more informed decision-making.
