@@ -1,4 +1,4 @@
-Power BI Dashboard — Sales Performance & Customer Insights
+Sales Analytics & KPI Monitoring Dashboard
 
 Aim / Purpose
 
