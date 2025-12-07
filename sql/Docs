@@ -1,16 +1,1 @@
-Standardizing Product Categories
-
-
-
-We removed hidden newline and carriage return characters from category_name_en using REPLACE().
-This ensures values are clean and consistent without extra invisible characters.
-
-Replacing blank records
-
-						⬇️
-
-
-
-QUERY:
-
 
