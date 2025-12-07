@@ -6,6 +6,7 @@ Aim / Purpose
 
 Dashboard Components
 1) KPI Cards with Embedded Trend Lines
+
 1.1 Total Sales (with Quarterly Sales Trend)
 
 ⦁	Displays total revenue for the selected period, along with a quarterly trend line that highlights growth patterns and seasonal performance.
