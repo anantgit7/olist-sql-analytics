@@ -40,7 +40,11 @@ Visualizes sales contribution by Brazilian states, where bubble size represents 
 Notes for Recruiters / Viewers
 
 ⦁	All visuals are interactive and update dynamically with the slicer.
+
 ⦁	Built using star schema modeling with optimized relationships.
+
 ⦁	DAX measures used for aggregations, KPIs, and trend analysis.
+
 ⦁	Designed for business monitoring, strategic insights, and data storytelling.
+
 ⦁	Reflects ability to perform cleaning, modeling, and dashboarding end-to-end.
