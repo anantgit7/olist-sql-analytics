@@ -1,6 +1,6 @@
 Power BI Dashboard — Sales Performance & Customer Insights
-Aim / Purpose
 
+Aim / Purpose:
 The objective of this dashboard is to provide a consolidated and interactive view of business performance across sales, orders, customer behavior, product categories, and geography. The dashboard combines KPIs, trend analysis, and visual breakdowns to enable monitoring of revenue, order volume, spending patterns, and regional demand. It allows users to explore data across multiple time periods and dimensions, supporting faster and more informed decision-making.
 
 Dashboard Components
