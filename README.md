@@ -6,9 +6,13 @@ This repository contains an end-to-end data analytics project built using Kaggle
 Data was cleaned and modeled into a Star Schema (facts & dimensions) and hosted on AWS RDS for analysis. The project includes:
 
 ⦁	Customer retention & churn analysis
+
 ⦁	Seller performance segmentation
+
 ⦁	Cohort trends
+
 ⦁	Category revenue insights
+
 ⦁	Power BI dashboards
 
 It demonstrates a complete pipeline:
