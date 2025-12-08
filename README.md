@@ -2,13 +2,20 @@ Project Overview
 
 The Olist Brazilian E-commerce dataset is a real-world marketplace dataset from Brazil containing orders, customers, sellers, products, payments, reviews, and delivery information.
 This repository contains an end-to-end data analytics project built using Kaggle dataset, AWS RDS, MySQL, and Power BI.
-Data was cleaned and modeled into a complete Star Schema (facts & dimensions) and hosted on AWS RDS for analysis.
-The project includes customer retention, churn analysis, seller performance, cohort trends, category revenue insights, and dashboards.
-It demonstrates a full pipeline from raw data → SQL analytics → Power BI visuals → business insights, suitable for recruiters and portfolio review.
 
-⦁	MySQL
-⦁	AWS
-⦁	Power BI
+Data was cleaned and modeled into a Star Schema (facts & dimensions) and hosted on AWS RDS for analysis. The project includes:
+
+⦁	Customer retention & churn analysis
+⦁	Seller performance segmentation
+⦁	Cohort trends
+⦁	Category revenue insights
+⦁	Power BI dashboards
+
+It demonstrates a complete pipeline:
+
+Raw data → SQL analytics → Power BI visuals → Business insights
+
+This structure makes it recruiter-friendly and portfolio-ready.
 
 **Each folder includes a dedicated README that provides a clear explanation of its contents, making it easy to understand the work without needing to go through all the code.**
 
