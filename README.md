@@ -1,7 +1,7 @@
 Project Overview
 
-This repository contains an end-to-end data analytics project built using Kaggle dataset, AWS RDS, MySQL and Power BI.
-The project is divided into three main folders:
+**This repository contains an end-to-end data analytics project built using Kaggle dataset, AWS RDS, MySQL and Power BI.
+The project is divided into three main folders:**
 
 ⦁	MySQL
 ⦁	AWS
