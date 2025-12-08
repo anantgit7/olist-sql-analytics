@@ -7,15 +7,7 @@ The project is divided into three main folders:**
 ⦁	AWS
 ⦁	Power BI
 
-Each folder includes:
-
-A README for easy understanding
-
-
-Supporting files (photos, code, videos, etc.)
-
-Optional access to the raw outputs (Google Docs / Sheets)
-
+**Each folder includes a dedicated README that provides a clear explanation of its contents, making it easy to understand the work without needing to go through all the code.**
 
 
 Folder Summary
@@ -58,24 +50,3 @@ This folder gives a quick overview of:
 ⦁	Visual insights
 ⦁	Interactions
 
-Ideal for viewers who want to see the final business output.
-
-How to View the Project Easily
-
-If anyone wants to skip the code, they can simply:
-
-Open the MySQL README
-→ summary + result links
-
-Open the Power BI README
-→ dashboard image + video
-
-Open the AWS README
-→ how data was hosted
-
-Everything important is already summarized in these readme files.
-
-📊 Result Files (Google Links)
-
-⦁	All final results (SQL outputs) are stored in a single Google Sheet:
-⦁	Dashboard documentation is available in Google Docs
