@@ -1,4 +1,4 @@
-Project Overview
+**Project Overview**
 
 The Olist Brazilian E-commerce dataset is a real-world marketplace dataset from Brazil containing orders, customers, sellers, products, payments, reviews, and delivery information.
 This repository contains an end-to-end data analytics project built using Kaggle dataset, AWS RDS, MySQL, and Power BI.
@@ -26,7 +26,7 @@ This structure makes it recruiter-friendly and portfolio-ready.
 
 Folder Summary
 
-1️⃣ MySQL Folder
+**1️) MySQL Folder**
 
 Contains:
 
@@ -38,7 +38,7 @@ Contains:
 
 ⦁	This folder is ideal for those who want to see how analysis was performed using SQL.
 
-2️⃣ AWS Folder
+**2️) AWS Folder**
 
 Contains:
 
@@ -50,7 +50,7 @@ Contains:
 
 This folder shows how the data was hosted centrally in AWS for querying and reporting.
 
-3️⃣ Power BI Folder
+**3️) Power BI Folder**
 
 Contains:
 
