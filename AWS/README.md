@@ -5,7 +5,7 @@ The goal is to use live cloud data for analysis and dashboards.**
 
 Components:
 
-1.	AWS RDS Connection
+**1.	AWS RDS Connection**
 
 ⦁	A MySQL database is hosted on AWS RDS.
 
@@ -13,13 +13,13 @@ Components:
 
 ⦁	Used for storing and querying transactional data.
 
-2) MySQL Client Connection
+**2) MySQL Client Connection**
 
 ⦁	MySQL Workbench is used to run SQL queries, inspect tables, and verify results.
 
 ⦁	Same database credentials are used for Power BI.
 
-3) ODBC Connector for Power BI
+**3) ODBC Connector for Power BI**
 
 ⦁	MySQL ODBC driver installed to allow Power BI to communicate with RDS.
 
