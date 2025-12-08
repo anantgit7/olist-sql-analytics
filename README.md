@@ -24,9 +24,19 @@ This structure makes it recruiter-friendly and portfolio-ready.
 **Each folder includes a dedicated README that provides a clear explanation of its contents, making it easy to understand the work without needing to go through all the code.**
 
 
-Folder Summary
+**Folder Summary**
 
-**1️) MySQL Folder**
+**1️) Docs Folder**
+
+Contains:
+
+⦁	Data Flow Diagram showing how the dataset moves 
+
+⦁	A README explaining this end-to-end flow in a short paragraph for quick understanding
+
+Useful for viewers who want to see how the pipeline works without opening code
+
+**2) MySQL Folder**
 
 Contains:
 
@@ -38,7 +48,7 @@ Contains:
 
 ⦁	This folder is ideal for those who want to see how analysis was performed using SQL.
 
-**2️) AWS Folder**
+**3) AWS Folder**
 
 Contains:
 
@@ -50,7 +60,7 @@ Contains:
 
 This folder shows how the data was hosted centrally in AWS for querying and reporting.
 
-**3️) Power BI Folder**
+**4) Power BI Folder**
 
 Contains:
 
